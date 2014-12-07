@@ -60,12 +60,15 @@ NAVIGATION
 
 nav{
 	background: #F7A153;
-	height: 3em;
 	width: 1000px;
 	text-align: center;
 	display: block;
 	position: relative;
 	margin: auto;
+}
+
+nav ul{
+	margin: 20px;
 }
 
 nav li{
@@ -76,19 +79,34 @@ nav li{
 }
 
 nav a{
-	padding: 30px;
-	margin: 10px;
+	padding: 20px 30px 16px 30px;
+	margin: 0 10px;
+}
+
+nav a:hover{
+	background: #EAA3FF;
 }
 
 /***********
 CONTENT
 ************/
+.articles,
+.about, 
+.contact{
+	margin: 20px;
+}
+
 h3{
 	display: inline-block;
 	background: #95DD66;
+	padding: 10px 30px;
+	margin: 10px;
 }
 h4{
 	background: #95DD66;
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
 }
 article{
 	background: #E6E6E6;
