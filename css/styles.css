@@ -18,11 +18,18 @@ h3,
 h4 {
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #666666;
+	margin: 0;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #666666;
+	margin: 0;
+}
+
+li{
+	color: #666666;
+	list-style: none;
 }
 
 /***********
@@ -32,14 +39,35 @@ TITLE SECTION
 	background: #EAA3FF;
 }
 
+/***********
+NAVIGATION
+************/
+nav{
+	background: #F7A153;
+}
 
 /***********
-NEWS SECTION
+CONTENT
 ************/
+h3{
+	display: inline-block;
+	background: #95DD66;
+}
+h4{
+	background: #95DD66;
+}
+article{
+	background: #E6E6E6;
+}
 
 /***********
 LINKS
 ************/
+a{
+	color: #666666;
+	text-decoration: none;
+}
+
 
 /* Show Grid */
 .showgrid {
