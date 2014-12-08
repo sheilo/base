@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-	background: linear-gradient(#999999, #666666), #666666;
+	background: linear-gradient(#888888, #666666), #666666;
 }
 
 h1, 
@@ -115,7 +115,7 @@ nav a:active {
 CONTENT
 ************/
 .content{
-	padding-top: 4em;
+	padding-top: 3em;
 }
 
 #recent, 
