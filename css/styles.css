@@ -28,12 +28,16 @@ li{
 	color: #666666;
 	list-style: none;
 }
-a{
+
+a, 
+a:link, 
+a:visited {
 	color: #666666;
 	text-decoration: none;
 }
 
-a:hover{
+a:hover, 
+a:active {
 	color: #999999;
 	transition: color .25s;
 }
@@ -48,7 +52,7 @@ TITLE SECTION
 
 .heading img{
 	margin: 9px 0 0 50px;
-	width: 40%;
+	width: 50%;
 }
 
 .heading h1{
@@ -74,14 +78,14 @@ NAVIGATION
 nav{
 	background: #F7A153;
 	width: 100%;
-	text-align: center;
 	display: inline-block;
 	position: relative;
-	margin: auto;
+	margin: 0 0 0 -21px;
 }
 
 nav ul{
-	margin: 20px;
+	margin: 20px 0;
+	padding: 0;
 }
 
 nav li{
@@ -92,12 +96,17 @@ nav li{
 	font-size: 1.5em;
 }
 
-nav a{
+nav a,
+nav a:link, 
+nav a:visited {
 	padding: 20px 30px 16px 30px;
 	margin: 0 10px 0 40px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
 }
 
-nav a:hover{
+nav a:hover, 
+nav a:active {
 	background: #EAA3FF;
 	transition: background .25s;
 }
@@ -208,10 +217,17 @@ footer{
 	padding: 20px;
 }
 
-footer a,
+footer a, 
+footer a:link, 
+footer a:visited, 
 footer p{
-	color: #E6E6E6;
+	color: #999999;
 	text-align: center;
+}
+
+footer a:hover{
+	color: #E6E6E6;
+	transition: color .25s;
 }
 
 /***********
@@ -220,8 +236,37 @@ MEDIA QUERIES
 
 @media screen and (max-width: 480px){
 
+	.navbar{
+		height: 7.625em;
+	}
+
 	nav{
 		float: none;
+		margin: 0;
+	}
+
+	nav ul{
+		margin: 5px 0;
+		padding: 0;
+	}
+
+	nav li{
+		float: none;
+		text-align: center;
+		font-size: 1.5em;
+	}
+
+	nav a,
+	nav a:link, 
+	nav a:visited {
+		padding: 5px 0 0 0;
+		margin: 5px 0 5px 0;
+		border-radius: 0;
+	}
+
+	nav a:hover, 
+	nav a:active {
+		background: none;
 	}
 
 	div.grid_6{
