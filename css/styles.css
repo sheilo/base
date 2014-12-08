@@ -16,18 +16,26 @@ h3,
 h4 {
 	font-family: 'PT Sans Caption', sans-serif;
 	color: #666666;
-	margin: 0;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #666666;
-	margin: 0;
+	margin: 10px;
 }
 
 li{
 	color: #666666;
 	list-style: none;
+}
+a{
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #999999;
+	transition: color .25s;
 }
 
 /***********
@@ -35,15 +43,20 @@ TITLE SECTION
 ************/
 .heading{
 	background: #EAA3FF;
-	height: 100%;
+	padding-top: 1px;
 }
 
 .heading img{
-	margin: 10px 0 0 50px;
+	margin: 9px 0 0 50px;
+	width: 40%;
 }
 
-.heading h2 {
-	margin: 0 0 0 285px;
+.heading h1{
+	margin: 0;
+}
+
+.heading h2{
+	margin: 0 0 0 50px;
 }
 
 /***********
@@ -90,44 +103,86 @@ nav a:hover{
 /***********
 CONTENT
 ************/
+.content{
+	padding-top: 4em;
+}
+
 .articles,
 .about, 
 .contact{
-	margin: 20px;
+	display: inline-block;
 }
 
 h3{
-	display: inline-block;
+	font-size: 1.5em;
+	display: inline;
 	background: #95DD66;
-	padding: 10px 30px;
+	padding: 15px 50px;
 	margin: 10px;
+	border-radius: 100px;
 }
 h4{
 	background: #95DD66;
-	display: inline-block;
-	padding: 10px;
-	margin: 5px;
+	display: block;
+	padding: 10px 20px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 }
 article{
 	background: #E6E6E6;
+	padding: 0 0 30px 0;
 	margin: 10px;
+	border-radius: 30px;
 }
 
-/***********
-LINKS
-************/
-a{
-	color: #666666;
-	text-decoration: none;
+article a{
+	background: #EAA3FF;
+	padding: 5px;
+	margin: 0 20px 20px 0;
+	border-radius: 10px;
+	float: right;
+}
+
+.about article, 
+.contact article{
+	margin: 20px 10px;
+	padding: 10px;
+}
+
+.contact a{
+	background: rgba(234, 163, 255, .1);
+	padding: 0;
+	margin: 0;
+	border-radius: 0;
+	float: none;
+	text-decoration: underline;
+}
+
+.contact a{
+	background: rgba(234, 163, 255, .1);
+	padding: 0 5px;
+	margin: 0;
+	border-radius: 20px;
+	float: none;
+	text-decoration: underline;
 }
 
 footer{
 	background: none;
-	color: #E6E6E6;
 	font-size: .5em;
 	text-align: center;
-	float: center;
 	padding: 20px;
+}
+
+footer ul{
+	text-align: center;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+footer a{
+	color: #E6E6E6;
 }
 
 /***********
