@@ -73,9 +73,9 @@ NAVIGATION
 
 nav{
 	background: #F7A153;
-	width: 1000px;
+	width: 100%;
 	text-align: center;
-	display: block;
+	display: inline-block;
 	position: relative;
 	margin: auto;
 }
@@ -217,6 +217,18 @@ footer p{
 /***********
 MEDIA QUERIES
 ************/
+
+@media screen and (max-width: 480px){
+
+	nav{
+		float: none;
+	}
+
+	div.grid_6{
+		float: none;
+		width: 100%;
+	}
+}
 
 
 /* Show Grid */
