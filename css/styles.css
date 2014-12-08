@@ -98,6 +98,7 @@ nav a{
 
 nav a:hover{
 	background: #EAA3FF;
+	transition: background .25s;
 }
 
 /***********
@@ -143,6 +144,15 @@ article a{
 	float: right;
 }
 
+article a:hover{
+	background: #95DD66;
+	padding: 5px;
+	margin: 0 20px 20px 0;
+	border-radius: 10px;
+	float: right;
+	transition: background .25s;
+}
+
 .about article, 
 .contact article{
 	margin: 20px 10px;
@@ -151,20 +161,21 @@ article a{
 
 .contact a{
 	background: rgba(234, 163, 255, .1);
-	padding: 0;
+	padding: 0 5px;
 	margin: 0;
 	border-radius: 0;
 	float: none;
 	text-decoration: underline;
 }
 
-.contact a{
-	background: rgba(234, 163, 255, .1);
+.contact a:hover{
+	background: #EAA3FF;
 	padding: 0 5px;
 	margin: 0;
 	border-radius: 20px;
 	float: none;
 	text-decoration: underline;
+	transition: background .25s;
 }
 
 footer{
@@ -174,15 +185,10 @@ footer{
 	padding: 20px;
 }
 
-footer ul{
-	text-align: center;
-	display: block;
-	position: relative;
-	margin: auto;
-}
-
-footer a{
+footer a,
+footer p{
 	color: #E6E6E6;
+	text-align: center;
 }
 
 /***********
