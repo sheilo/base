@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-	background: linear-gradient(#999, #666), #666;
+	background: linear-gradient(#888, #666), #666;
 }
 
 h1, 
@@ -52,7 +52,7 @@ TITLE SECTION
 
 .heading img{
 	margin: 9px 0 0 50px;
-	width: 50%;
+	max-width: 50%;
 }
 
 .heading h1{
@@ -116,6 +116,7 @@ CONTENT
 ************/
 .content{
 	padding-top: 3em;
+	padding-bottom: 1em;
 }
 
 #recent, 
@@ -151,6 +152,7 @@ article a{
 	background: #EAA3FF;
 	padding: 6px 5px 5px 5px;
 	margin: 0 1em 1em 0;
+	bottom: 10px;
 	border-radius: 15px;
 	float: right;
 }
@@ -164,6 +166,10 @@ article a:hover{
 #contact article{
 	margin: 20px 10px;
 	padding: 10px;
+}
+
+#contact{
+	margin: 0 0 1% 0;
 }
 
 #contact a{
