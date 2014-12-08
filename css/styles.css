@@ -3,11 +3,11 @@ GENERAL
 ************/
 
 body{
-	background: #999999;
+	background: #999;
 }
 
 .container{
-	background: linear-gradient(#888888, #666666), #666666;
+	background: linear-gradient(#999, #666), #666;
 }
 
 h1, 
@@ -15,30 +15,30 @@ h2,
 h3,
 h4 {
 	font-family: 'PT Sans Caption', sans-serif;
-	color: #666666;
+	color: #666;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	color: #666666;
+	color: #666;
 	margin: 10px;
 }
 
 li{
-	color: #666666;
+	color: #666;
 	list-style: none;
 }
 
 a, 
 a:link, 
 a:visited {
-	color: #666666;
+	color: #666;
 	text-decoration: none;
 }
 
 a:hover, 
 a:active {
-	color: #999999;
+	color: #999;
 	transition: color .25s;
 }
 
@@ -221,7 +221,7 @@ footer a,
 footer a:link, 
 footer a:visited, 
 footer p{
-	color: #999999;
+	color: #999;
 	text-align: center;
 }
 
