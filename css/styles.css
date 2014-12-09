@@ -47,7 +47,7 @@ TITLE SECTION
 ************/
 .heading{
 	background: #EAA3FF;
-	padding-top: 1px;
+	padding: 1px 5px 0 0;
 }
 
 .heading img{
