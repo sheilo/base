@@ -80,7 +80,7 @@ nav{
 	width: 100%;
 	display: inline-block;
 	position: relative;
-	margin: 0 0 0 -20px;
+	margin: 0 0 0 5px;
 }
 
 nav ul{
@@ -279,6 +279,12 @@ MEDIA QUERIES
 	div.grid_6{
 		float: none;
 		width: 100%;
+	}
+
+	#about, 
+	#contact, 
+	#popular {
+		margin-top: 10px;
 	}
 }
 
