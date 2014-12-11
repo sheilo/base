@@ -168,6 +168,11 @@ article a:hover{
 	padding: 10px;
 }
 
+#about a{
+	position: relative;
+	top: -25px;
+}
+
 #contact{
 	margin: 0 0 1% 0;
 }
@@ -221,19 +226,6 @@ footer{
 	font-size: .5em;
 	text-align: center;
 	padding: 20px;
-}
-
-footer a, 
-footer a:link, 
-footer a:visited, 
-footer p{
-	color: #999;
-	text-align: center;
-}
-
-footer a:hover{
-	color: #E6E6E6;
-	transition: color .25s;
 }
 
 /***********
